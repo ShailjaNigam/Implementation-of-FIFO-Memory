@@ -1,0 +1,14 @@
+Implementation of first in first out Memory
+
+Title: Implementation of first in first out Memory
+
+Objective:
+Objective is to implement first in first out memory with 16 stages, 
+8 bit data width and it will describe a few more attributes like full, empty, overflow, underflow.
+
+RTL or software application: RTL
+
+Functionality: 
+FIFO implementation uses one mux, demux, and array of vectors to store the values. 
+This usually makes the stack function in hardware language. 
+

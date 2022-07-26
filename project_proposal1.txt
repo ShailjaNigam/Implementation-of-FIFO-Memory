@@ -1,0 +1,18 @@
+Low Pass FIR filter implementation
+
+Title: Low Pass FIR filter implementation
+
+Objective:
+A simple low pass FIR filter implementation which is for ECG Denoising and other applications. 
+We give the data values as the input and it applies digital filtering then gives the filtered outputs.
+
+RTL or software application: RTL
+
+Functionality:
+The FIR filter is basically implemented by using D-Flip-Flops, signed multipliers and adders.
+A basic block includes one N-bit register, one multiplier, and one adder. 
+Full design can be done by repeating the basic blocks.
+The filter we are going to implement is of the order 10 and the taps used are 11. 
+(Taps mean The number of taps (N) is the amount of the memory needed to implement the filter).
+We use certain coefficient values and multiply to the output of the D - flip flop which are in series. 
+Finally add them to get the output
